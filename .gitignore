@@ -3,7 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
-.properties
+*.properties
+*.class
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
