@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="http://localhost:8080/currencies" method="post">
+
+    <label for="code">Код валюты:</label>
+    <input type="text" id="code" name="code" placeholder="Например: USD, RUB, EUR" required><br>
+
+    <label for="fullName">Полное название:</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Например: US Dollar" required><br>
+
+    <label for="sign">Символ валюты:</label>
+    <input type="text" id="sign" name="sign" placeholder="Например: $, €, ₽" required><br>
+
+    <button type="submit">Добавить валюту</button>
+
+</form>
+
+</body>
+</html>
